@@ -13,8 +13,8 @@ st.set_page_config(
 )
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-IMAGES_DIR = os.path.join(BASE_DIR, "assets", "images")
-VIDEO_PATH = os.path.join(BASE_DIR, "assets", "video", "our_memory.mp4")
+IMAGES_DIR = os.path.join(BASE_DIR, "images")
+VIDEO_PATH = os.path.join(BASE_DIR, "video", "our_memory.mp4")
 TOTAL_IMAGES = 14
 
 CAPTIONS = [
